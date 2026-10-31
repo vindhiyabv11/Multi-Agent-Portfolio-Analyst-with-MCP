@@ -1,4 +1,5 @@
-# Fin Agent Desk: Multi-Agent Portfolio Analyst with MCP, Guardrails and Human Review
+# Fin Agent Desk: # Multi-Agent Financial Portfolio Analyst with MCP
+*Guardrails, human-in-the-loop review, evaluation harness and portfolio drift analysis.*
 
 An automated financial assistant that pulls live market data, checks it against a local SQLite database of the user's assets, and compiles a visual asset-health report.
 
