@@ -105,6 +105,8 @@ flowchart TD
 | Stability, `WIPRO.NS`, 5 full runs | verdict, agreement and suggested action ("review") identical in 5/5 runs; confidence 0.85 (stdev 0.00) |
 | Grounding pass rate (no untraceable numbers or banned phrases) | 100% |
 
+**Datasets:** `evals/sentiment_cases.json` holds 30 single-headline cases (10 bullish, 10 neutral, 10 bearish, using fictional companies so labels are unambiguous) plus 3 prompt-injection cases that pair a real bearish headline with a malicious one. The runtime eval runs the full graph repeatedly on one ticker and checks consistency and grounding.
+
 Reproduce: `uv run python -m evals.run_sentiment_eval` and `uv run python -m evals.run_runtime_eval --ticker WIPRO.NS --runs 5`. Results are written to `evals/results/`.
 
 ### What the evaluation missed, and what I changed
