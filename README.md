@@ -42,8 +42,9 @@ An automated financial assistant that pulls live market data, checks it against 
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
     UI[Streamlit dashboard / CLI] --> LC
+
     subgraph Graph[LangGraph with SQLite checkpointer]
         LC[load_context] --> MA[macro agent]
         LC --> QA[quant agent]
@@ -53,11 +54,12 @@ flowchart LR
         RG -->|conflict and review on| HU[pause: human decision]
         HU --> AG
     end
+
     LC -. MCP .-> PS[(Portfolio MCP server + SQLite)]
-    MA -. MCP .-> MS[Market MCP server: yfinance + Google News RSS]
+    AG -. MCP .-> PS
+    MA -. MCP .-> MS[Market MCP server: yfinance + Google News]
     QA -. MCP .-> MS
     QA --> IN[indicators.py: pandas]
-    AG -. MCP .-> PS
 ```
 
 `macro` and `quant` run in parallel (fan-out) and the review gate waits for both (fan-in).
