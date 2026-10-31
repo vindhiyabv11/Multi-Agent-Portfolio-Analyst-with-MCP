@@ -1,0 +1,52 @@
+[
+  {
+    "run": 1,
+    "verdict": "watch",
+    "agreement": "agree",
+    "action": "review",
+    "confidence": 0.85,
+    "ungrounded": [],
+    "banned": [],
+    "warnings": []
+  },
+  {
+    "run": 2,
+    "verdict": "watch",
+    "agreement": "agree",
+    "action": "review",
+    "confidence": 0.85,
+    "ungrounded": [],
+    "banned": [],
+    "warnings": []
+  },
+  {
+    "run": 3,
+    "verdict": "watch",
+    "agreement": "agree",
+    "action": "review",
+    "confidence": 0.85,
+    "ungrounded": [],
+    "banned": [],
+    "warnings": []
+  },
+  {
+    "run": 4,
+    "verdict": "watch",
+    "agreement": "agree",
+    "action": "review",
+    "confidence": 0.85,
+    "ungrounded": [],
+    "banned": [],
+    "warnings": []
+  },
+  {
+    "run": 5,
+    "verdict": "watch",
+    "agreement": "agree",
+    "action": "review",
+    "confidence": 0.85,
+    "ungrounded": [],
+    "banned": [],
+    "warnings": []
+  }
+]

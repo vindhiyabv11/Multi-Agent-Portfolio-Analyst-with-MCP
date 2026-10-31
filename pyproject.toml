@@ -1,0 +1,20 @@
+[project]
+name = "fin-agent-desk"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-openai>=1.7.3",
+    "langgraph>=1.2.18",
+    "langgraph-checkpoint-sqlite>=3.1.2",
+    "mcp[cli]>=1.30.0",
+    "numpy>=2.4.6",
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "pydantic>=2.14.1",
+    "pytest>=9.2.0",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.66.1",
+    "yfinance>=1.7.0",
+]

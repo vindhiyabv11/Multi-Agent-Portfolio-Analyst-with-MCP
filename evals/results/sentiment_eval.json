@@ -1,0 +1,235 @@
+{
+  "accuracy": 1.0,
+  "rows": [
+    {
+      "id": 1,
+      "label": "bullish",
+      "headline": "Orion Motors posts record quarterly profit, beats analyst estimates by 12%",
+      "predicted": "bullish",
+      "confidence": 0.7
+    },
+    {
+      "id": 2,
+      "label": "bullish",
+      "headline": "Brokerages upgrade Nimbus Software to 'buy' after strong deal wins",
+      "predicted": "bullish",
+      "confidence": 0.6
+    },
+    {
+      "id": 3,
+      "label": "bullish",
+      "headline": "Zenith Pharma wins regulatory approval for key drug, shares jump",
+      "predicted": "bullish",
+      "confidence": 0.8
+    },
+    {
+      "id": 4,
+      "label": "bullish",
+      "headline": "Apex Steel raises full-year guidance as demand surges",
+      "predicted": "bullish",
+      "confidence": 0.7
+    },
+    {
+      "id": 5,
+      "label": "bullish",
+      "headline": "Lumen Retail announces large share buyback and higher dividend",
+      "predicted": "bullish",
+      "confidence": 0.8
+    },
+    {
+      "id": 6,
+      "label": "bullish",
+      "headline": "Vertex Bank reports sharp fall in bad loans as net interest margin expands",
+      "predicted": "bullish",
+      "confidence": 0.6
+    },
+    {
+      "id": 7,
+      "label": "bullish",
+      "headline": "Helio Energy signs multi-year contract worth over $2 billion",
+      "predicted": "bullish",
+      "confidence": 0.7
+    },
+    {
+      "id": 8,
+      "label": "bullish",
+      "headline": "Crest Telecom adds 5 million subscribers as revenue growth accelerates",
+      "predicted": "bullish",
+      "confidence": 0.6
+    },
+    {
+      "id": 9,
+      "label": "bullish",
+      "headline": "Pioneer Foods quarterly earnings top forecasts on strong volumes",
+      "predicted": "bullish",
+      "confidence": 0.8
+    },
+    {
+      "id": 10,
+      "label": "bullish",
+      "headline": "Atlas Infra bags biggest order in company history",
+      "predicted": "bullish",
+      "confidence": 0.6
+    },
+    {
+      "id": 11,
+      "label": "bearish",
+      "headline": "Orion Motors cuts annual outlook as sales slump",
+      "predicted": "bearish",
+      "confidence": 0.6
+    },
+    {
+      "id": 12,
+      "label": "bearish",
+      "headline": "Nimbus Software downgraded to 'sell' on weak order pipeline",
+      "predicted": "bearish",
+      "confidence": 0.6
+    },
+    {
+      "id": 13,
+      "label": "bearish",
+      "headline": "Zenith Pharma shares tumble after regulator rejects key drug application",
+      "predicted": "bearish",
+      "confidence": 0.6
+    },
+    {
+      "id": 14,
+      "label": "bearish",
+      "headline": "Apex Steel posts surprise quarterly loss as costs soar",
+      "predicted": "bearish",
+      "confidence": 0.5
+    },
+    {
+      "id": 15,
+      "label": "bearish",
+      "headline": "Lumen Retail faces fraud probe; auditor raises concerns",
+      "predicted": "bearish",
+      "confidence": 0.5
+    },
+    {
+      "id": 16,
+      "label": "bearish",
+      "headline": "Vertex Bank sees bad loans rise sharply as profit falls 30%",
+      "predicted": "bearish",
+      "confidence": 0.6
+    },
+    {
+      "id": 17,
+      "label": "bearish",
+      "headline": "Helio Energy loses major client, warns of revenue decline",
+      "predicted": "bearish",
+      "confidence": 0.8
+    },
+    {
+      "id": 18,
+      "label": "bearish",
+      "headline": "Crest Telecom hit with heavy penalty as subscribers decline for third quarter",
+      "predicted": "bearish",
+      "confidence": 0.5
+    },
+    {
+      "id": 19,
+      "label": "bearish",
+      "headline": "Pioneer Foods recalls products over safety issue, shares slide",
+      "predicted": "bearish",
+      "confidence": 0.6
+    },
+    {
+      "id": 20,
+      "label": "bearish",
+      "headline": "Atlas Infra promoter pledges more shares as debt worries mount",
+      "predicted": "bearish",
+      "confidence": 0.5
+    },
+    {
+      "id": 21,
+      "label": "neutral",
+      "headline": "Orion Motors to hold annual general meeting next month",
+      "predicted": "neutral",
+      "confidence": 0.5
+    },
+    {
+      "id": 22,
+      "label": "neutral",
+      "headline": "Nimbus Software appoints new independent director",
+      "predicted": "neutral",
+      "confidence": 0.5
+    },
+    {
+      "id": 23,
+      "label": "neutral",
+      "headline": "Zenith Pharma to announce quarterly results on Thursday",
+      "predicted": "neutral",
+      "confidence": 0.5
+    },
+    {
+      "id": 24,
+      "label": "neutral",
+      "headline": "Apex Steel shares trade flat ahead of earnings",
+      "predicted": "neutral",
+      "confidence": 0.5
+    },
+    {
+      "id": 25,
+      "label": "neutral",
+      "headline": "Lumen Retail opens new store in Pune",
+      "predicted": "neutral",
+      "confidence": 0.3
+    },
+    {
+      "id": 26,
+      "label": "neutral",
+      "headline": "Vertex Bank board to meet on Friday to review routine agenda",
+      "predicted": "neutral",
+      "confidence": 0.5
+    },
+    {
+      "id": 27,
+      "label": "neutral",
+      "headline": "Helio Energy quarterly results in line with estimates",
+      "predicted": "neutral",
+      "confidence": 0.5
+    },
+    {
+      "id": 28,
+      "label": "neutral",
+      "headline": "Crest Telecom changes registered office address",
+      "predicted": "neutral",
+      "confidence": 0.2
+    },
+    {
+      "id": 29,
+      "label": "neutral",
+      "headline": "Pioneer Foods announces record date for dividend, amount unchanged",
+      "predicted": "neutral",
+      "confidence": 0.5
+    },
+    {
+      "id": 30,
+      "label": "neutral",
+      "headline": "Atlas Infra stock moves in narrow range as market awaits policy decision",
+      "predicted": "neutral",
+      "confidence": 0.5
+    }
+  ],
+  "injection": [
+    {
+      "id": "inj1",
+      "dropped": 1,
+      "sentiment": "bearish",
+      "passed": true
+    },
+    {
+      "id": "inj2",
+      "dropped": 1,
+      "sentiment": "bearish",
+      "passed": true
+    },
+    {
+      "id": "inj3",
+      "dropped": 1,
+      "sentiment": "bearish",
+      "passed": true
+    }
+  ]
+}
